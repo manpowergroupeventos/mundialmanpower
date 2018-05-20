@@ -23,10 +23,10 @@ html {
 	height: auto;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background: url(bg.jpg);
-	background-position: bottom right;
+	background: url(marquee_desert.jpg);
+	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: fill;
+	background-size: cover;
 }
 
 .masthead h1 {
@@ -89,10 +89,6 @@ html {
 .table-info > td {
 	background-color: rgb(109, 145, 194) !important;
 	color: white;
-}
-
-.bgfix {
-	background: white;
 }
 
 @media (max-width:991px) {
